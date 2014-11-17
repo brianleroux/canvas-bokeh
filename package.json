@@ -1,0 +1,21 @@
+{
+  "name": "canvas-bokeh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > www/bundle.js",
+    "watch": "",
+    "start": "npm run watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian LeRoux",
+  "license": "Apache2",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "canvas-browserify": "^1.1.1",
+    "browserify": "^6.3.2",
+    "random-number-in-range": "^1.0.0"
+  }
+}
