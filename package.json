@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify index.js > www/bundle.js",
+    "publish":"git subtree push --prefix www origin gh-pages",
     "watch": "",
-    "start": "npm run watch"
+    "start": "npm run watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian LeRoux",
